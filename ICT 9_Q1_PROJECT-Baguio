@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Personal Portfolio</title>
+     <style>
+        img {
+            width: 100px;
+        }
+   
+   nav {
+    background-color: rgb(91, 126, 60);
+    padding: 20px;
+    text-align: right;
+}
+
+nav a {
+    color: rgb(162, 203, 139);
+    text-decoration: none;
+    margin-left: 20px;
+}
+  #home {
+    background-color: rgb(232, 245, 189);
+    text-align: center;
+    padding: 30px;
+}
+  #about {
+    width: 70%;
+    margin: 30px auto;
+}
+
+#about {
+    width: 70%;
+    margin: 30px auto;
+}
+
+#about h2 {
+    background-color: rgb(91, 126, 60);
+    color: white;
+    text-align: center;
+    padding: 8px;
+}
+
+
+#about h2 {
+    background-color: rgb(91, 126, 60);
+    color: white;
+    text-align: center;
+    padding: 8px;
+}
+
+#works {
+    width: 70%;
+    margin: 30px auto;
+}
+
+#works h2 {
+    background-color: rgb(91, 126, 60);
+    color: white;
+    text-align: center;
+    padding: 8px;
+}
+
+#works img {
+    width: 300px;
+    height: 180px;
+    object-fit: cover;
+}
+
+#works div {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#works p {
+    text-align: center;
+}
+
+#works div div {
+    display: block;
+}
+
+#works h3 {
+    margin-top: 30px;
+}
+
+body {
+    background-color: rgb(209, 227, 149);
+}
+footer {
+    background-color: rgb(91, 126, 60);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+  </style>
+
+<style>
+    form {
+        width: 350px;
+        margin: auto;
+        padding: 20px;
+        border: 1px solid #0d7e16;
+        border-radius: 10px;
+        box-shadow: 0 2px 8px #083d10;
+    }
+
+#contact {
+    width: 70%;
+    margin: 30px auto;
+}
+
+#contact h2 {
+    background-color: rgb(91, 126, 60);
+    color: white;
+    text-align: center;
+    padding: 8px;
+}
+
+   
+</style>
+
+</head>
+
+<body>
+ <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About Me</a>
+        <a href="#works">My Works</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+<section id="home">
+<img src="flat-style-simple-boy-character-illustration-avatar-profile-picture-vector-removebg-preview.png" alt="">    <h1>Hello, I'm Marcus</h1>
+    <p>Aspiring Web Developer</p>
+</section>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>Hi, I'm Marcus. I want to learn how to create websites because I like coding!</p>
+</section>
+
+<section id="works">
+    <h2>My Works</h2>
+
+    <!-- Spotify Project -->
+    <div>
+        <div>
+            <img src="spotify-project.png .png" alt="My Spotify Project">
+            <p>My Favorite Spotify Artist</p>
+        </div>
+
+        <ul>
+            <li>✔️HTML & CSS Project</li>
+            <li>✔️Spotify Artists</li>
+            <li>✔️Lists, Links and Images</li>
+            <li>
+                <a href="YOUR_GITHUB_LINK" target="_blank">
+                    View GitHub Repository
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <!-- Rate a Movie Project -->
+    <div>
+    <div>
+        <img src="Screenshot 2026-10-01 at 7.02.24 PM.png" alt="My Rate a Movie Project">
+        <p>My Rate a Movie Project</p>
+    </div>
+
+    <ul>
+        <li>✔️ HTML & CSS Project</li>
+        <li>✔️ Movie Rating</li>
+        <li>✔️ Images and Links</li>
+        <li>✔️ Lists</li>
+        <li><a href="YOUR_MOVIE_GITHUB_LINK" target="_blank">View GitHub Repository</a></li>
+    </ul>
+</div>
+</section>
+
+
+<section id="contact">
+
+<h2>Contact Me</h2>
+
+<form>
+
+    <label>Your Name:</label><br>
+    <input type="text" placeholder="Jane Doe"><br><br>
+
+    <label>Your Email:</label><br>
+    <input type="email" placeholder="jane_doe@gmail.com"><br><br>
+
+    <label>How did you find me?</label>
+    <input type="radio" name="find"> Facebook
+    <input type="radio" name="find"> Google
+    <input type="radio" name="find"> Friends
+    <br><br>
+
+    <label>Interested in:</label>
+    <input type="checkbox"> Web Design
+    <input type="checkbox"> Graphic Design
+    <input type="checkbox"> Robotics
+    <br><br>
+
+    <label>Rate my Portfolio</label><br>
+    <select>
+        <option>-- Select Rating --</option>
+        <option>⭐⭐⭐⭐⭐</option>
+        <option>⭐⭐⭐⭐</option>
+        <option>⭐⭐⭐</option>
+        <option>⭐⭐</option>
+        <option>⭐</option>
+    </select>
+    <br><br>
+
+    <label>Any Feedback?</label><br>
+    <textarea placeholder="feedback here..."></textarea>
+    <br><br>
+
+    <input type="submit" value="Submit">
+
+</form>
+</section>
+
+ <footer>
+        <p>© 2026 | Marcus Sky U. Baguio | 9-Emerald</p>
+    </footer>
+</body>
+</html>
